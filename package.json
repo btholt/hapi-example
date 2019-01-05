@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Brian Holt <btholt+hapi.example@gmail.com>",
+  "license": "Apache-2.0",
   "dependencies": {
+    "good": "^8.1.1",
+    "good-console": "^7.1.0",
+    "good-squeeze": "^5.1.0",
     "hapi": "^17.8.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
   }
 }
